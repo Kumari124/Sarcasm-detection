@@ -16,7 +16,11 @@ The objective of this project is to understand and apply transformer-based model
 - Applied padding and truncation for uniform input length
 - Fine-tuned a pretrained DistilBERT model for binary classification
 - Evaluated the model using standard classification metrics
-
+## Work done after mid term
+- Studied the importance of model interpretability for transformer-based models
+- Implemented LIME (Local Interpretable Model-Agnostic Explanations) for model interpretability
+- Applied LIME to a sample news headline to analyze word-level contributions to sarcasm prediction
+- Interpreted how specific words influenced the model’s decision, improving transparency and understanding of model behaviour
 ## Model Used
 - **DistilBERT (distilbert-base-uncased)**
 - A single classification layer was added on top of the transformer encoder for sarcasm prediction
@@ -27,10 +31,12 @@ The objective of this project is to understand and apply transformer-based model
 - PyTorch
 - Pandas
 - Scikit-learn
+- LIME
 
 ## Dataset
 News Headlines Dataset for Sarcasm Detection  
 Source: Kaggle
 
 ## Notes
-The code was developed and executed using a Kaggle notebook environment and synced to this GitHub repository
+The code was developed and executed using a Kaggle notebook environment and then uploaded to this GitHub repository. 
+Model interpretability experiments using LIME were added as part of the end-term work.
